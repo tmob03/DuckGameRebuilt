@@ -11,6 +11,10 @@ using System.Collections.Generic;
 
 namespace DuckGame
 {
+    /// <summary>
+    /// A class that handles rendering animations and sequences of
+    /// images or multiple render states through the <see cref="Sprite"/> system
+    /// </summary>
     public class SpriteMap : Sprite, ICloneable<SpriteMap>, ICloneable
     {
         private int _globalIndex = Thing.GetGlobalIndex();

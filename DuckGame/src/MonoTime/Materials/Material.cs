@@ -10,6 +10,9 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace DuckGame
 {
+    /// <summary>
+    /// The "material" of Things in Duck Game. This can be stuff like <see cref="MaterialGlitch"/>, <see cref="MaterialGold"/>, etc
+    /// </summary>
     public class Material
     {
         public bool spsupport;

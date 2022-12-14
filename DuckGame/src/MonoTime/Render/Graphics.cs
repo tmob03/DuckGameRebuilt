@@ -15,6 +15,13 @@ using AddedContent.Hyeve.PolyRender;
 
 namespace DuckGame
 {
+    /// <summary>
+    /// Duck Game's main way to render textures to the screen.
+    /// Supports rendering basic shapes (rectangles, circles, etc) and allows rendering images
+    /// </summary>
+    /// <seealso cref="Texture2D"/>
+    /// <seealso cref="Sprite"/>
+    /// <seealso cref="Rectangle"/>
     public class Graphics
     {
         public static List<GraphicsResource> objectsToDispose = new List<GraphicsResource>();

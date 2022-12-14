@@ -7,6 +7,9 @@
 
 namespace DuckGame
 {
+    /// <summary>
+    /// The class used by parallax background objects to determine the level's background.
+    /// </summary>
     public class BackgroundUpdater : Thing
     {
         public ParallaxBackground _parallax;

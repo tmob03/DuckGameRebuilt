@@ -24,7 +24,8 @@ namespace DuckGame
             collisionOffset = new Vec2(-6f, -6f);
             collisionSize = new Vec2(12f, 13f);
             _equippedDepth = 3;
-            editorTooltip = "Keeps feet safe and smashes bugs, among other things.";
+            editorTooltip = "Keeps feet safe and smashes bugs, among other things."; 
+                // ducks in Duck Game are a bug confirmed
             flammable = 0.3f;
             charThreshold = 0.8f;
         }

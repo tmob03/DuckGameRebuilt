@@ -41,12 +41,16 @@ namespace DuckGame
             set => x = value - width;
         }
 
+        /// <summary>Top-Left corner of the rectangle</summary>
         public Vec2 tl => new Vec2(x, y);
 
+        /// <summary>Top-Right corner of the rectangle</summary>
         public Vec2 tr => new Vec2(x + width, y);
 
+        /// <summary>Bottom-Left corner of the rectangle</summary>
         public Vec2 bl => new Vec2(x, y + height);
 
+        /// <summary>Bottom-Right corner of the rectangle</summary>
         public Vec2 br => new Vec2(x + width, y + height);
 
         public Vec2 Center
@@ -59,6 +63,7 @@ namespace DuckGame
             }
         }
 
+        /// <summary>The ratio of the width and height (w / h)</summary>
         public float aspect => width / height;
 
         public Rectangle(float x, float y, float width, float height)

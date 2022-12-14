@@ -9,7 +9,7 @@ using System;
 
 namespace DuckGame
 {
-    /// <summary>Declares which group this Thing is in the editor</summary>
+    /// <summary>Declares which group this Thing is in the editor menu</summary>
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
     public sealed class EditorGroupAttribute : Attribute
     {

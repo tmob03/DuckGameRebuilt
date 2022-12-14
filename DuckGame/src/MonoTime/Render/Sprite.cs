@@ -10,6 +10,10 @@ using System;
 
 namespace DuckGame
 {
+    /// <summary>
+    /// Basically <see cref="Texture2D"/> but with more shit
+    /// </summary>
+    /// <seealso cref="SpriteMap"/>
     public class Sprite : Transform, ICloneable<Sprite>, ICloneable
     {
         private int _globalIndex = Thing.GetGlobalIndex();

@@ -15,6 +15,9 @@ using System.Runtime.InteropServices;
 
 namespace Microsoft.Xna.Framework.Graphics
 {
+	/// <summary>
+	/// Represents a 2D texture. Can be imported from external files or streams
+	/// </summary>
 	public class Texture2D : Texture
 	{
 		#region Public Properties

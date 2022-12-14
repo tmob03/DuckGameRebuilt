@@ -13,6 +13,10 @@ using System.Windows.Controls.Primitives;
 
 namespace DuckGame
 {
+    /// <summary>
+    /// Dictates the depth, dimension, and position of sprites rendered.
+    /// </summary>
+    /// <seealso cref="Graphics"/>
     public class Layer : DrawList
     {
         public bool enableCulling;

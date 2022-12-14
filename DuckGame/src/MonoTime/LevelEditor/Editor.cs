@@ -37,6 +37,9 @@ namespace DuckGame
 
         //private InputType dragStartInputType;
         private Vec2 _sizeRestriction = new Vec2(800f, 640f);
+        /// <summary>
+        /// The editor object cost limit that dictates of any more objects can be placed or not
+        /// </summary>
         public static int placementLimit;
         public int placementTotalCost;
         private Vec2 _topLeftMost = new Vec2(99999f, 99999f);
